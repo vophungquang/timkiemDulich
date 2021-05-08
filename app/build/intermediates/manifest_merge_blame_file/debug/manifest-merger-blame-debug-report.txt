@@ -1,0 +1,610 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- suppress ALL -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="io.github.project_travel_mate"
+5    android:versionCode="49"
+6    android:versionName="5.6.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:6:5-60
+12-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:6:19-57
+13    <uses-feature
+13-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:7:5-9:36
+14        android:name="android.hardware.camera.autofocus"
+14-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:8:9-57
+15        android:required="false" />
+15-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:9:9-33
+16
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:11:5-65
+17-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:11:22-62
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:13:5-68
+19-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:13:22-65
+20    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+20-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:14:5-73
+20-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:14:22-70
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:15:5-74
+21-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:15:22-71
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:16:5-75
+22-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:16:22-72
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:17:5-68
+23-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:17:22-65
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:18:5-80
+24-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:19:5-67
+25-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:19:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:20:5-79
+26-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:20:22-76
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:21:5-72
+27-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:21:22-69
+28    <uses-permission android:name="android.permission.READ_PROFILE" />
+28-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:22:5-71
+28-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:22:22-68
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:23:5-81
+29-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:23:22-78
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:24:5-79
+30-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:24:22-76
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:25:5-66
+31-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:25:22-63
+32
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+34        android:name="android.hardware.camera.front"
+34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+37        android:name="android.hardware.camera.flash"
+37-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+40        android:name="android.hardware.screen.landscape"
+40-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+43        android:name="android.hardware.wifi"
+43-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+45
+46    <supports-screens
+46-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:11:5-14:40
+47        android:anyDensity="true"
+47-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:12:9-34
+48        android:largeScreens="true"
+48-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:13:9-36
+49        android:normalScreens="true" />
+49-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:14:9-37
+50
+51    <uses-feature
+51-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:16:5-18:36
+52        android:name="android.hardware.location.network"
+52-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:17:9-57
+53        android:required="false" />
+53-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:18:9-33
+54    <uses-feature
+54-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:19:5-21:36
+55        android:name="android.hardware.location.gps"
+55-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:20:9-53
+56        android:required="false" />
+56-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:21:9-33
+57    <uses-feature
+57-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:22:5-24:36
+58        android:name="android.hardware.telephony"
+58-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:23:9-50
+59        android:required="false" />
+59-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\0b839c9746ff28ff758682c20045a35f\osmdroid-android-6.0.2\AndroidManifest.xml:24:9-33
+60
+61    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+61-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:14:5-81
+61-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:14:22-78
+62
+63    <application
+63-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:27:5-205:19
+64        android:name="io.github.project_travel_mate.TravelMateApplication"
+64-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:28:9-46
+65        android:allowBackup="true"
+65-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:29:9-35
+66        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+66-->[com.android.support:support-compat:28.0.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\3eb340592a0c0e6e5b941be0a0bf3780\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+67        android:debuggable="true"
+68        android:fullBackupContent="@xml/backup_descriptor"
+68-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:30:9-59
+69        android:icon="@drawable/google_travel_logo"
+69-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:31:9-52
+70        android:label="@string/app_name"
+70-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:32:9-41
+71        android:largeHeap="true"
+71-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:33:9-33
+72        android:screenOrientation="portrait"
+72-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:34:9-45
+73        android:supportsRtl="true"
+73-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:35:9-35
+74        android:testOnly="true"
+75        android:theme="@style/AppTheme" >
+75-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:36:9-40
+76        <activity
+76-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:38:9-41:47
+77            android:name="io.github.project_travel_mate.mytrips.TripImageActivity"
+77-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:39:13-54
+78            android:configChanges="orientation|screenSize"
+78-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:40:13-59
+79            android:theme="@style/AppTheme" />
+79-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:41:13-44
+80        <activity
+80-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:42:9-59:20
+81            android:name="io.github.project_travel_mate.MainActivity"
+81-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:43:13-41
+82            android:configChanges="orientation|screenSize"
+82-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:46:13-59
+83            android:label="@string/app_name"
+83-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:44:13-45
+84            android:theme="@style/AppThemeNoBar"
+84-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:45:13-49
+85            android:windowSoftInputMode="adjustResize" >
+85-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:47:13-55
+86            <intent-filter>
+86-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:48:13-58:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:49:17-69
+87-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:49:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:51:17-76
+89-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:51:27-73
+90                <category android:name="android.intent.category.BROWSABLE" />
+90-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:52:17-78
+90-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:52:27-75
+91
+92                <data android:host="project-travel-mate.github.io" />
+92-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:54:17-70
+92-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:54:23-67
+93                <data android:scheme="https" />
+93-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:54:17-70
+93-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:55:23-45
+94                <data android:scheme="http" />
+94-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:54:17-70
+94-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:55:23-45
+95                <data android:pathPattern=".*" />
+95-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:54:17-70
+95-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:57:23-47
+96            </intent-filter>
+97        </activity>
+98
+99        <service
+99-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:61:9-63:38
+100            android:name="utils.GPSTracker"
+100-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:62:13-44
+101            android:enabled="true" />
+101-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:63:13-35
+102
+103        <activity
+103-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:65:9-68:54
+104            android:name="io.github.project_travel_mate.utilities.ChecklistActivity"
+104-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:66:13-56
+105            android:label="@string/title_activity_select_city"
+105-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:67:13-63
+106            android:theme="@style/AppTheme_picker" />
+106-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:68:13-51
+107        <activity
+107-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:69:9-72:54
+108            android:name="io.github.project_travel_mate.travel.ShoppingCurrentCityActivity"
+108-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:70:13-63
+109            android:label="@string/title_activity_shopping_currentcity"
+109-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:71:13-72
+110            android:theme="@style/AppTheme_picker" />
+110-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:72:13-51
+111        <activity
+111-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:73:9-77:54
+112            android:name="io.github.project_travel_mate.travel.HotelsActivity"
+112-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:74:13-50
+113            android:configChanges="orientation|screenSize"
+113-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:75:13-59
+114            android:label="@string/title_activity_hotels"
+114-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:76:13-58
+115            android:theme="@style/AppTheme_picker" />
+115-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:77:13-51
+116        <activity
+116-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:78:9-81:54
+117            android:name="io.github.project_travel_mate.travel.MapViewRealTimeActivity"
+117-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:79:13-59
+118            android:label="@string/title_activity_map"
+118-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:80:13-55
+119            android:theme="@style/AppTheme_picker" />
+119-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:81:13-51
+120        <activity
+120-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:82:9-95:20
+121            android:name="io.github.project_travel_mate.SplashActivity"
+121-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:83:13-43
+122            android:label="@string/app_name"
+122-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:84:13-45
+123            android:theme="@style/AppThemeNoBar" >
+123-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:85:13-49
+124            <intent-filter>
+124-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:86:13-90:29
+125                <action android:name="android.intent.action.MAIN" />
+125-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:87:17-69
+125-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:87:25-66
+126
+127                <category android:name="android.intent.category.LAUNCHER" />
+127-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:89:17-77
+127-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:89:27-74
+128            </intent-filter>
+129
+130            <meta-data
+130-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:92:13-94:53
+131                android:name="android.app.shortcuts"
+131-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:93:17-53
+132                android:resource="@xml/shortcuts" />
+132-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:94:17-50
+133        </activity>
+134        <activity
+134-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:96:9-99:54
+135            android:name="io.github.project_travel_mate.destinations.funfacts.FunFactsActivity"
+135-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:97:13-67
+136            android:label="@string/title_activity_fun_facts"
+136-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:98:13-61
+137            android:theme="@style/AppTheme_picker" />
+137-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:99:13-51
+138        <activity android:name="io.github.project_travel_mate.utilities.ShareContactActivity" />
+138-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:100:9-68
+138-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:100:19-65
+139        <activity
+139-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:101:9-105:54
+140            android:name="io.github.project_travel_mate.login.LoginActivity"
+140-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:102:13-48
+141            android:label="@string/title_activity_login"
+141-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:103:13-57
+142            android:theme="@style/AppThemeNoBar"
+142-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:104:13-49
+143            android:windowSoftInputMode="adjustPan" />
+143-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:105:13-52
+144        <activity
+144-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:106:9-108:52
+145            android:name="io.github.project_travel_mate.destinations.description.FinalCityInfoActivity"
+145-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:107:13-75
+146            android:theme="@style/AppThemeNoBar" />
+146-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:108:13-49
+147        <activity android:name="io.github.project_travel_mate.destinations.description.PlacesOnMapActivity" />
+147-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:109:9-82
+147-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:109:19-79
+148        <activity android:name="io.github.project_travel_mate.mytrips.AddNewTripActivity" />
+148-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:110:9-64
+148-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:110:19-61
+149        <activity
+149-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:111:9-114:57
+150            android:name="io.github.project_travel_mate.mytrips.MyTripInfoActivity"
+150-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:112:13-55
+151            android:theme="@style/AppThemeNoBar"
+151-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:113:13-49
+152            android:windowSoftInputMode="stateHidden" />
+152-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:114:13-54
+153        <activity android:name="io.github.project_travel_mate.destinations.description.TweetsActivity" />
+153-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:115:9-77
+153-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:115:19-74
+154        <activity
+154-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:116:9-119:52
+155            android:name="io.github.project_travel_mate.VerifyEmailActivity"
+155-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:117:13-48
+156            android:label="@string/verify_email"
+156-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:118:13-49
+157            android:theme="@style/AppThemeNoBar" />
+157-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:119:13-49
+158
+159        <provider
+159-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:121:9-129:20
+160            android:name="android.support.v4.content.FileProvider"
+160-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:122:13-67
+161            android:authorities="io.github.project_travel_mate.shareFile"
+161-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:123:13-74
+162            android:exported="false"
+162-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:124:13-37
+163            android:grantUriPermissions="true" >
+163-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:125:13-47
+164            <meta-data
+164-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:126:13-128:58
+165                android:name="android.support.FILE_PROVIDER_PATHS"
+165-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:127:17-67
+166                android:resource="@xml/provider_paths" />
+166-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:128:17-55
+167        </provider>
+168
+169        <activity
+169-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:131:9-132:68
+170            android:name="io.github.project_travel_mate.ProfileActivity"
+170-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:131:19-50
+171            android:configChanges="orientation|screenSize" />
+171-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:132:19-65
+172        <activity android:name="io.github.project_travel_mate.friend.FriendsProfileActivity" />
+172-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:133:9-67
+172-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:133:19-64
+173        <activity android:name="io.github.project_travel_mate.notifications.NotificationsActivity" />
+173-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:134:9-73
+173-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:134:19-70
+174        <activity
+174-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:135:9-137:60
+175            android:name="io.github.project_travel_mate.FullScreenImage"
+175-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:136:13-44
+176            android:theme="@style/FullProfileImageTheme" />
+176-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:137:13-57
+177        <activity android:name="io.github.project_travel_mate.utilities.WeatherForecastActivity" />
+177-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:138:9-71
+177-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:138:19-68
+178        <activity android:name="io.github.project_travel_mate.utilities.CompassActivity" />
+178-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:139:9-63
+178-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:139:19-60
+179        <activity android:name="io.github.project_travel_mate.utilities.CurrencyActivity" />
+179-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:140:9-64
+179-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:140:19-61
+180        <activity android:name="io.github.project_travel_mate.utilities.WorldClockActivity" />
+180-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:141:9-66
+180-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:141:19-63
+181        <activity android:name="io.github.project_travel_mate.utilities.CurrencyListViewActivity" />
+181-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:142:9-72
+181-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:142:19-69
+182        <activity android:name="io.github.project_travel_mate.utilities.TimezoneListViewActivity" />
+182-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:143:9-72
+182-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:143:19-69
+183        <activity android:name="io.github.project_travel_mate.destinations.description.WeatherActivity" />
+183-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:144:9-78
+183-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:144:19-75
+184        <activity android:name="io.github.project_travel_mate.utilities.UpcomingWeekendsActivity" />
+184-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:145:9-72
+184-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:145:19-69
+185        <activity android:name="io.github.project_travel_mate.destinations.description.CityHistoryActivity" />
+185-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:146:9-82
+185-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:146:19-79
+186        <activity android:name="io.github.project_travel_mate.destinations.description.CityMapActivity" />
+186-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:147:9-78
+186-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:147:19-75
+187        <activity android:name="io.github.project_travel_mate.travel.ListViewRealTimeActivity" />
+187-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:148:9-69
+187-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:148:19-66
+188        <activity android:name="io.github.project_travel_mate.destinations.description.RestaurantsActivity" />
+188-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:149:9-82
+188-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:149:19-79
+189        <activity android:name="io.github.project_travel_mate.destinations.description.TweetsDescriptionActivity" />
+189-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:150:9-88
+189-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:150:19-85
+190        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+190-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:151:9-85
+190-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:151:19-82
+191        <activity
+191-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:152:9-154:11
+192            android:name="io.github.project_travel_mate.utilities.QuotesActivity"
+192-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:152:19-59
+193            android:theme="@style/Theme.AppCompat.NoActionBar" />
+193-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:153:13-63
+194        <activity
+194-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:155:9-165:20
+195            android:name="io.github.project_travel_mate.DeleteProfilePictureActivity"
+195-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:156:13-57
+196            android:icon="@drawable/ic_delete_round"
+196-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:157:13-53
+197            android:label="@string/remove_photo"
+197-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:158:13-49
+198            android:theme="@android:style/Theme.NoDisplay" >
+198-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:159:13-59
+199            <intent-filter>
+199-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:160:13-164:29
+200                <action android:name="android.intent.action.DELETE" />
+200-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:161:17-71
+200-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:161:25-68
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:51:17-76
+202-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:51:27-73
+203            </intent-filter>
+204        </activity>
+205        <activity
+205-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:166:9-168:52
+206            android:name="io.github.project_travel_mate.destinations.description.RestaurantDetailsActivity"
+206-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:167:13-79
+207            android:theme="@style/AppThemeNoBar" />
+207-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:168:13-49
+208
+209        <receiver android:name="widget.CheckListWidgetProvider" >
+209-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:170:9-180:20
+209-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:170:19-64
+210            <intent-filter>
+210-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:171:13-175:29
+211
+212                <!-- This widget provider receives broadcast with following action name or simply onUpdate of AppWidgetProvider is called -->
+213                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+213-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:174:17-84
+213-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:174:25-81
+214            </intent-filter>
+215            <!-- linking up xml file of appwidget-provider to AppWidgetProvider -->
+216            <meta-data
+216-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:177:13-179:65
+217                android:name="android.appwidget.provider"
+217-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:178:17-58
+218                android:resource="@xml/checklist_widget_info" />
+218-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:179:17-62
+219        </receiver>
+220
+221        <service
+221-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:182:9-184:72
+222            android:name="widget.CheckListWidgetService"
+222-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:183:13-57
+223            android:permission="android.permission.BIND_REMOTEVIEWS" />
+223-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:184:13-69
+224
+225        <meta-data
+225-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:186:9-188:57
+226            android:name="preloaded_fonts"
+226-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:187:13-43
+227            android:resource="@array/preloaded_fonts" />
+227-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:188:13-54
+228
+229        <receiver android:name="widget.ClockWidget" >
+229-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:190:9-198:20
+229-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:190:19-52
+230            <intent-filter>
+230-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:171:13-175:29
+231                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+231-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:174:17-84
+231-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:174:25-81
+232            </intent-filter>
+233
+234            <meta-data
+234-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:177:13-179:65
+235                android:name="android.appwidget.provider"
+235-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:178:17-58
+236                android:resource="@xml/clock_widget_info" />
+236-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:179:17-62
+237        </receiver>
+238
+239        <activity android:name="widget.ClockWidgetConfigureActivity" >
+239-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:200:9-204:20
+239-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:200:19-69
+240            <intent-filter>
+240-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:201:13-203:29
+241                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+241-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:202:17-87
+241-->C:\Users\OCEMAN\Downloads\Downloads\Travel-Mate-master\Android\app\src\main\AndroidManifest.xml:202:25-84
+242            </intent-filter>
+243        </activity>
+244        <activity
+244-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+245            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+245-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+246            android:clearTaskOnLaunch="true"
+246-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+247            android:screenOrientation="sensorLandscape"
+247-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+248            android:stateNotNeeded="true"
+248-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+249            android:theme="@style/zxing_CaptureTheme"
+249-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+250            android:windowSoftInputMode="stateAlwaysHidden" />
+250-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\e812b3b376b681dcd8e03af802367ad0\zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+251
+252        <provider
+252-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\8205afcfeaabc9d2af46086823129ba7\extensions-1.1.0\AndroidManifest.xml:23:9-27:43
+253            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+253-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\8205afcfeaabc9d2af46086823129ba7\extensions-1.1.0\AndroidManifest.xml:24:13-83
+254            android:authorities="io.github.project_travel_mate.lifecycle-trojan"
+254-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\8205afcfeaabc9d2af46086823129ba7\extensions-1.1.0\AndroidManifest.xml:25:13-68
+255            android:exported="false"
+255-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\8205afcfeaabc9d2af46086823129ba7\extensions-1.1.0\AndroidManifest.xml:26:13-37
+256            android:multiprocess="true" />
+256-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\8205afcfeaabc9d2af46086823129ba7\extensions-1.1.0\AndroidManifest.xml:27:13-40
+257
+258        <service
+258-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:17:9-20:72
+259            android:name="com.evernote.android.job.v21.PlatformJobService"
+259-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:18:13-75
+260            android:exported="false"
+260-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:19:13-37
+261            android:permission="android.permission.BIND_JOB_SERVICE" />
+261-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:20:13-69
+262        <service
+262-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:21:9-24:72
+263            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+263-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:22:13-77
+264            android:exported="false"
+264-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:23:13-37
+265            android:permission="android.permission.BIND_JOB_SERVICE" />
+265-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:24:13-69
+266        <service
+266-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:25:9-27:40
+267            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+267-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:26:13-82
+268            android:exported="false" />
+268-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:27:13-37
+269
+270        <receiver
+270-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:29:9-38:20
+271            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+271-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:30:13-78
+272            android:exported="false" >
+272-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:31:13-37
+273            <intent-filter>
+273-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:32:13-37:29
+274
+275                <!-- Keep the filter for legacy intents -->
+276                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+276-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:35:17-79
+276-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:35:25-76
+277                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+277-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:36:17-78
+277-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:36:25-75
+278            </intent-filter>
+279        </receiver>
+280        <receiver
+280-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:39:9-48:20
+281            android:name="com.evernote.android.job.JobBootReceiver"
+281-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:40:13-68
+282            android:exported="false" >
+282-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:41:13-37
+283            <intent-filter>
+283-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:42:13-47:29
+284                <action android:name="android.intent.action.BOOT_COMPLETED" />
+284-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:43:17-79
+284-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:43:25-76
+285                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+285-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:44:17-82
+285-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:44:25-79
+286                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+286-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:45:17-82
+286-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:45:25-79
+287                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+287-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:46:17-84
+287-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:46:25-81
+288            </intent-filter>
+289        </receiver>
+290
+291        <service
+291-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:50:9-58:19
+292            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+292-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:51:13-75
+293            android:enabled="false"
+293-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:52:13-36
+294            android:exported="true"
+294-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:53:13-36
+295            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+295-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:54:13-93
+296            <intent-filter>
+296-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:55:13-57:29
+297                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+297-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:56:17-87
+297-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:56:25-84
+298            </intent-filter>
+299        </service>
+300        <service
+300-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:59:9-62:72
+301            android:name="com.evernote.android.job.JobRescheduleService"
+301-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:60:13-73
+302            android:exported="false"
+302-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:61:13-37
+303            android:permission="android.permission.BIND_JOB_SERVICE" />
+303-->[com.evernote:android-job:1.2.1] C:\Users\OCEMAN\.gradle\caches\transforms-2\files-2.1\08ff0f388bd2dcc8482acf282c24ae87\android-job-1.2.1\AndroidManifest.xml:62:13-69
+304    </application>
+305
+306</manifest>

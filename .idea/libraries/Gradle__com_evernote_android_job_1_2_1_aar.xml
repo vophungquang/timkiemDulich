@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.evernote:android-job:1.2.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1ea9806d9bfaa65c0a4525920a1b3bc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/bf3833ba194f6ac9df6dfabe9cfc092a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/bf3833ba194f6ac9df6dfabe9cfc092a/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/bf3833ba194f6ac9df6dfabe9cfc092a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08ff0f388bd2dcc8482acf282c24ae87/android-job-1.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08ff0f388bd2dcc8482acf282c24ae87/android-job-1.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08ff0f388bd2dcc8482acf282c24ae87/android-job-1.2.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.evernote/android-job/1.2.1/fe7a244887b7ac066c8eba61cc331d4ca58d3093/android-job-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.evernote/android-job/1.2.1/9b4d4f04c47c2d4c176b171cc072d19d2b31dda2/android-job-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

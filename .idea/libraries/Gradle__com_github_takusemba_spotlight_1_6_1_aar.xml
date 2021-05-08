@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.takusemba:spotlight:1.6.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotlight-1.6.1.aar/118253dcbef664c736f0b8ebe49451be/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotlight-1.6.1.aar/118253dcbef664c736f0b8ebe49451be/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotlight-1.6.1.aar/118253dcbef664c736f0b8ebe49451be/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03f619bc23b5a1a53470be952b999d31/spotlight-1.6.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03f619bc23b5a1a53470be952b999d31/spotlight-1.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03f619bc23b5a1a53470be952b999d31/spotlight-1.6.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/spotlight/1.6.1/729424ec09385993d5916fdc79a0ccc1720b3d16/spotlight-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/spotlight/1.6.1/8091e12ab870d9430eb0b468a4e11430b8c726d9/spotlight-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

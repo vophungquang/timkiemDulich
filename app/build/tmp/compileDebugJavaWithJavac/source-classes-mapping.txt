@@ -1,0 +1,476 @@
+adapters/NestedListView.java
+ adapters.NestedListView
+io/github/project_travel_mate/friend/MyFriendsFragment.java
+ io.github.project_travel_mate.friend.MyFriendsFragment
+ io.github.project_travel_mate.friend.MyFriendsFragment$1
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/AtmModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.AtmModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.AtmModeFragment$1
+io/github/project_travel_mate/friend/MutualTripsAdapter.java
+ io.github.project_travel_mate.friend.MutualTripsAdapter
+ io.github.project_travel_mate.friend.MutualTripsAdapter$ViewHolder
+io/github/project_travel_mate/notifications/NotificationsActivity.java
+ io.github.project_travel_mate.notifications.NotificationsActivity
+ io.github.project_travel_mate.notifications.NotificationsActivity$1
+ io.github.project_travel_mate.notifications.NotificationsActivity$2
+io/github/project_travel_mate/destinations/funfacts/FunfactFragment.java
+ io.github.project_travel_mate.destinations.funfacts.FunfactFragment
+ io.github.project_travel_mate.destinations.funfacts.FunfactFragment$ViewHolder
+io/github/project_travel_mate/mytrips/MyTripInfoActivity.java
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$1
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$2
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$3
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$4
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$5
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$6
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$7
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$8
+ io.github.project_travel_mate.mytrips.MyTripInfoActivity$9
+io/github/project_travel_mate/destinations/description/CityHistoryActivity.java
+ io.github.project_travel_mate.destinations.description.CityHistoryActivity
+ io.github.project_travel_mate.destinations.description.CityHistoryActivity$1
+widget/CheckListProvider.java
+ widget.CheckListProvider
+io/github/project_travel_mate/travel/HotelsActivity.java
+ io.github.project_travel_mate.travel.HotelsActivity
+ io.github.project_travel_mate.travel.HotelsActivity$1
+ io.github.project_travel_mate.travel.HotelsActivity$2
+ io.github.project_travel_mate.travel.HotelsActivity$3
+ io.github.project_travel_mate.travel.HotelsActivity$HotelsAdapter
+ io.github.project_travel_mate.travel.HotelsActivity$HotelsAdapter$HotelsViewHolder
+ io.github.project_travel_mate.travel.HotelsActivity$HotelsModel
+views/FontTextView.java
+ views.FontTextView
+widget/CheckListWidgetProvider.java
+ widget.CheckListWidgetProvider
+io/github/project_travel_mate/destinations/description/CityImageSliderAdapter.java
+ io.github.project_travel_mate.destinations.description.CityImageSliderAdapter
+objects/Tweet.java
+ objects.Tweet
+io/github/project_travel_mate/MainActivity.java
+ io.github.project_travel_mate.MainActivity
+ io.github.project_travel_mate.MainActivity$1
+ io.github.project_travel_mate.MainActivity$2
+io/github/project_travel_mate/utilities/AddBugFragment.java
+ io.github.project_travel_mate.utilities.AddBugFragment
+ io.github.project_travel_mate.utilities.AddBugFragment$1
+io/github/project_travel_mate/favourite/FavouriteCitiesAdapter.java
+ io.github.project_travel_mate.favourite.FavouriteCitiesAdapter
+ io.github.project_travel_mate.favourite.FavouriteCitiesAdapter$ViewHolder
+io/github/project_travel_mate/destinations/description/FinalCityInfoActivity.java
+ io.github.project_travel_mate.destinations.description.FinalCityInfoActivity
+ io.github.project_travel_mate.destinations.description.FinalCityInfoActivity$1
+ io.github.project_travel_mate.destinations.description.FinalCityInfoActivity$2
+io/github/project_travel_mate/TravelMateApplication.java
+ io.github.project_travel_mate.TravelMateApplication
+io/github/project_travel_mate/utilities/ShareContactActivity.java
+ io.github.project_travel_mate.utilities.ShareContactActivity
+io/github/project_travel_mate/travel/ShoppingCurrentCityActivity.java
+ io.github.project_travel_mate.travel.ShoppingCurrentCityActivity
+ io.github.project_travel_mate.travel.ShoppingCurrentCityActivity$1
+ io.github.project_travel_mate.travel.ShoppingCurrentCityActivity$2
+ io.github.project_travel_mate.travel.ShoppingCurrentCityActivity$3
+io/github/project_travel_mate/utilities/AnalogClock.java
+ io.github.project_travel_mate.utilities.AnalogClock
+io/github/project_travel_mate/destinations/description/TweetsDescriptionActivity.java
+ io.github.project_travel_mate.destinations.description.TweetsDescriptionActivity
+ io.github.project_travel_mate.destinations.description.TweetsDescriptionActivity$1
+objects/TweetDescription.java
+ objects.TweetDescription
+io/github/project_travel_mate/SplashActivity.java
+ io.github.project_travel_mate.SplashActivity
+io/github/project_travel_mate/utilities/HandsOverlay.java
+ io.github.project_travel_mate.utilities.HandsOverlay
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/ShoppingModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.ShoppingModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.ShoppingModeFragment$1
+adapters/RestaurantsCardViewAdapter.java
+ adapters.RestaurantsCardViewAdapter
+ adapters.RestaurantsCardViewAdapter$OnItemClickListener
+ adapters.RestaurantsCardViewAdapter$UtilityOptionsViewHolder
+utils/TravelMateAnalogClock.java
+ utils.TravelMateAnalogClock
+io/github/project_travel_mate/travel/TravelFragment.java
+ io.github.project_travel_mate.travel.TravelFragment
+io/github/project_travel_mate/destinations/description/TweetsRecyclerAdapter.java
+ io.github.project_travel_mate.destinations.description.TweetsRecyclerAdapter
+ io.github.project_travel_mate.destinations.description.TweetsRecyclerAdapter$TweetsAdapterListener
+ io.github.project_travel_mate.destinations.description.TweetsRecyclerAdapter$ViewHolder
+objects/Feedback.java
+ objects.Feedback
+io/github/project_travel_mate/utilities/UpcomingWeekendsListAdapter.java
+ io.github.project_travel_mate.utilities.UpcomingWeekendsListAdapter
+ io.github.project_travel_mate.utilities.UpcomingWeekendsListAdapter$UpcomingWeekendsViewHolder
+utils/Constants.java
+ utils.Constants
+ utils.Constants$1
+ utils.Constants$2
+objects/User.java
+ objects.User
+adapters/ImageAdapter.java
+ adapters.ImageAdapter
+io/github/project_travel_mate/HomeFragment.java
+ io.github.project_travel_mate.HomeFragment
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/EatModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.EatModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.EatModeFragment$1
+io/github/project_travel_mate/ProfileActivity.java
+ io.github.project_travel_mate.ProfileActivity
+ io.github.project_travel_mate.ProfileActivity$1
+ io.github.project_travel_mate.ProfileActivity$2
+ io.github.project_travel_mate.ProfileActivity$3
+ io.github.project_travel_mate.ProfileActivity$4
+ io.github.project_travel_mate.ProfileActivity$5
+ io.github.project_travel_mate.ProfileActivity$6
+ io.github.project_travel_mate.ProfileActivity$7
+ io.github.project_travel_mate.ProfileActivity$8
+ io.github.project_travel_mate.ProfileActivity$9
+io/github/project_travel_mate/utilities/CompassActivity.java
+ io.github.project_travel_mate.utilities.CompassActivity
+io/github/project_travel_mate/BuildConfig.java
+ io.github.project_travel_mate.BuildConfig
+io/github/project_travel_mate/travel/ListViewRealTimeActivity.java
+ io.github.project_travel_mate.travel.ListViewRealTimeActivity
+io/github/project_travel_mate/utilities/BugReportFragment.java
+ io.github.project_travel_mate.utilities.BugReportFragment
+ io.github.project_travel_mate.utilities.BugReportFragment$1
+io/github/project_travel_mate/login/LoginPresenter.java
+ io.github.project_travel_mate.login.LoginPresenter
+ io.github.project_travel_mate.login.LoginPresenter$1
+ io.github.project_travel_mate.login.LoginPresenter$2
+ io.github.project_travel_mate.login.LoginPresenter$3
+ io.github.project_travel_mate.login.LoginPresenter$4
+io/github/project_travel_mate/utilities/ContributorsFragment.java
+ io.github.project_travel_mate.utilities.ContributorsFragment
+ io.github.project_travel_mate.utilities.ContributorsFragment$1
+ io.github.project_travel_mate.utilities.ContributorsFragment$1$1
+io/github/project_travel_mate/utilities/WeatherForecastActivity.java
+ io.github.project_travel_mate.utilities.WeatherForecastActivity
+ io.github.project_travel_mate.utilities.WeatherForecastActivity$1
+io/github/project_travel_mate/friend/FriendCityRecyclerAdapter.java
+ io.github.project_travel_mate.friend.FriendCityRecyclerAdapter
+ io.github.project_travel_mate.friend.FriendCityRecyclerAdapter$FriendCityViewHolder
+io/github/project_travel_mate/utilities/CurrencyConverterAdapter.java
+ io.github.project_travel_mate.utilities.CurrencyConverterAdapter
+ io.github.project_travel_mate.utilities.CurrencyConverterAdapter$1
+ io.github.project_travel_mate.utilities.CurrencyConverterAdapter$ViewHolder
+io/github/project_travel_mate/destinations/description/TweetsActivity.java
+ io.github.project_travel_mate.destinations.description.TweetsActivity
+ io.github.project_travel_mate.destinations.description.TweetsActivity$1
+objects/Weather.java
+ objects.Weather
+io/github/project_travel_mate/utilities/WorldClockActivity.java
+ io.github.project_travel_mate.utilities.WorldClockActivity
+ io.github.project_travel_mate.utilities.WorldClockActivity$1
+utils/DateUtils.java
+ utils.DateUtils
+io/github/project_travel_mate/roompersistence/Injection.java
+ io.github.project_travel_mate.roompersistence.Injection
+io/github/project_travel_mate/roompersistence/DbChecklist.java
+ io.github.project_travel_mate.roompersistence.DbChecklist
+ io.github.project_travel_mate.roompersistence.DbChecklist$1
+ io.github.project_travel_mate.roompersistence.DbChecklist$2
+io/github/project_travel_mate/roompersistence/BooleanConverter.java
+ io.github.project_travel_mate.roompersistence.BooleanConverter
+io/github/project_travel_mate/destinations/description/TweetsDescriptionAdapter.java
+ io.github.project_travel_mate.destinations.description.TweetsDescriptionAdapter
+ io.github.project_travel_mate.destinations.description.TweetsDescriptionAdapter$ViewHolder
+io/github/project_travel_mate/utilities/UpcomingWeekendsActivity.java
+ io.github.project_travel_mate.utilities.UpcomingWeekendsActivity
+ io.github.project_travel_mate.utilities.UpcomingWeekendsActivity$1
+objects/Contributor.java
+ objects.Contributor
+objects/FunFact.java
+ objects.FunFact
+io/github/project_travel_mate/mytrips/TripImageActivity.java
+ io.github.project_travel_mate.mytrips.TripImageActivity
+io/github/project_travel_mate/utilities/ChecklistFragment.java
+ io.github.project_travel_mate.utilities.ChecklistFragment
+utils/CircleImageView.java
+ utils.CircleImageView
+ utils.CircleImageView$1
+ utils.CircleImageView$OutlineProvider
+utils/TravelmateSnackbars.java
+ utils.TravelmateSnackbars
+io/github/project_travel_mate/destinations/description/FinalCityInfoPresenter.java
+ io.github.project_travel_mate.destinations.description.FinalCityInfoPresenter
+ io.github.project_travel_mate.destinations.description.FinalCityInfoPresenter$1
+ io.github.project_travel_mate.destinations.description.FinalCityInfoPresenter$2
+objects/QuoteGroup.java
+ objects.QuoteGroup
+widget/ClockWidgetConfigureActivity.java
+ widget.ClockWidgetConfigureActivity
+ widget.ClockWidgetConfigureActivity$1
+io/github/project_travel_mate/utilities/DailyQuotesFragment.java
+ io.github.project_travel_mate.utilities.DailyQuotesFragment
+ io.github.project_travel_mate.utilities.DailyQuotesFragment$1
+ io.github.project_travel_mate.utilities.DailyQuotesFragment$ViewHolder
+objects/City.java
+ objects.City
+utils/GPSTracker.java
+ utils.GPSTracker
+io/github/project_travel_mate/destinations/description/CityHistoryAdapter.java
+ io.github.project_travel_mate.destinations.description.CityHistoryAdapter
+ io.github.project_travel_mate.destinations.description.CityHistoryAdapter$ViewHolder
+objects/ChecklistItem.java
+ objects.ChecklistItem
+utils/Compass.java
+ utils.Compass
+ utils.Compass$CompassListener
+database/Converters.java
+ database.Converters
+ database.Converters$1
+objects/ZoneName.java
+ objects.ZoneName
+io/github/project_travel_mate/roompersistence/ViewModelFactory.java
+ io.github.project_travel_mate.roompersistence.ViewModelFactory
+dao/CityDao.java
+ dao.CityDao
+io/github/project_travel_mate/utilities/ChecklistActivity.java
+ io.github.project_travel_mate.utilities.ChecklistActivity
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/MonumentsModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.MonumentsModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.MonumentsModeFragment$1
+flipviewpager/utils/FlipSettings.java
+ flipviewpager.utils.FlipSettings
+ flipviewpager.utils.FlipSettings$1
+ flipviewpager.utils.FlipSettings$Builder
+widget/CheckListWidgetItem.java
+ widget.CheckListWidgetItem
+utils/ExpandableTextView.java
+ utils.ExpandableTextView
+utils/CardItemEntity.java
+ utils.CardItemEntity
+widget/CheckListWidgetService.java
+ widget.CheckListWidgetService
+io/github/project_travel_mate/mytrips/AddNewTripActivity.java
+ io.github.project_travel_mate.mytrips.AddNewTripActivity
+ io.github.project_travel_mate.mytrips.AddNewTripActivity$1
+ io.github.project_travel_mate.mytrips.AddNewTripActivity$2
+objects/UpcomingWeekends.java
+ objects.UpcomingWeekends
+utils/Utils.java
+ utils.Utils
+io/github/project_travel_mate/destinations/funfacts/FunFactsActivity.java
+ io.github.project_travel_mate.destinations.funfacts.FunFactsActivity
+ io.github.project_travel_mate.destinations.funfacts.FunFactsActivity$1
+ io.github.project_travel_mate.destinations.funfacts.FunFactsActivity$MyPageAdapter
+io/github/project_travel_mate/CitiesTravelledAdapter.java
+ io.github.project_travel_mate.CitiesTravelledAdapter
+ io.github.project_travel_mate.CitiesTravelledAdapter$ViewHolder
+io/github/project_travel_mate/utilities/QuotesActivity.java
+ io.github.project_travel_mate.utilities.QuotesActivity
+io/github/project_travel_mate/DeleteProfilePictureActivity.java
+ io.github.project_travel_mate.DeleteProfilePictureActivity
+io/github/project_travel_mate/friend/MyFriendsAdapter.java
+ io.github.project_travel_mate.friend.MyFriendsAdapter
+ io.github.project_travel_mate.friend.MyFriendsAdapter$MyFriendsViewHolder
+io/github/project_travel_mate/roompersistence/ChecklistDataSource.java
+ io.github.project_travel_mate.roompersistence.ChecklistDataSource
+io/github/project_travel_mate/destinations/description/RestaurantsActivity.java
+ io.github.project_travel_mate.destinations.description.RestaurantsActivity
+ io.github.project_travel_mate.destinations.description.RestaurantsActivity$1
+ io.github.project_travel_mate.destinations.description.RestaurantsActivity$2
+io/github/project_travel_mate/utilities/ChecklistItemDiffCallback.java
+ io.github.project_travel_mate.utilities.ChecklistItemDiffCallback
+io/github/project_travel_mate/destinations/funfacts/FunFactsView.java
+ io.github.project_travel_mate.destinations.funfacts.FunFactsView
+io/github/project_travel_mate/travel/ShoppingAdapter.java
+ io.github.project_travel_mate.travel.ShoppingAdapter
+ io.github.project_travel_mate.travel.ShoppingAdapter$ViewHolder
+io/github/project_travel_mate/searchcitydialog/CitySearchModel.java
+ io.github.project_travel_mate.searchcitydialog.CitySearchModel
+ io.github.project_travel_mate.searchcitydialog.CitySearchModel$1
+io/github/project_travel_mate/destinations/description/FinalCityInfoView.java
+ io.github.project_travel_mate.destinations.description.FinalCityInfoView
+io/github/project_travel_mate/FullScreenImage.java
+ io.github.project_travel_mate.FullScreenImage
+adapters/ContributorsAdapter.java
+ adapters.ContributorsAdapter
+ adapters.ContributorsAdapter$ViewHolder
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/BusStopModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.BusStopModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.BusStopModeFragment$1
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/HospitalModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.HospitalModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.HospitalModeFragment$1
+utils/ExpandableHeightGridView.java
+ utils.ExpandableHeightGridView
+io/github/project_travel_mate/roompersistence/ChecklistItemDAO.java
+ io.github.project_travel_mate.roompersistence.ChecklistItemDAO
+utils/RestaurantItemEntity.java
+ utils.RestaurantItemEntity
+io/github/project_travel_mate/mytrips/TripsListAdapter.java
+ io.github.project_travel_mate.mytrips.TripsListAdapter
+ io.github.project_travel_mate.mytrips.TripsListAdapter$ClickListener
+ io.github.project_travel_mate.mytrips.TripsListAdapter$TimelineHeader
+ io.github.project_travel_mate.mytrips.TripsListAdapter$TimelineViewHolder
+io/github/project_travel_mate/SettingsFragment.java
+ io.github.project_travel_mate.SettingsFragment
+ io.github.project_travel_mate.SettingsFragment$1
+ io.github.project_travel_mate.SettingsFragment$2
+io/github/project_travel_mate/destinations/description/PlacesOnMapActivity.java
+ io.github.project_travel_mate.destinations.description.PlacesOnMapActivity
+ io.github.project_travel_mate.destinations.description.PlacesOnMapActivity$1
+ io.github.project_travel_mate.destinations.description.PlacesOnMapActivity$PlacesOnMapAdapter
+ io.github.project_travel_mate.destinations.description.PlacesOnMapActivity$PlacesOnMapAdapter$ViewHolder
+io/github/project_travel_mate/searchcitydialog/CitySearchBottomSheetDialogFragment.java
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment$1
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment$CitySearchModelAdapter
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment$CitySearchModelAdapter$1
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment$Listener
+ io.github.project_travel_mate.searchcitydialog.CitySearchBottomSheetDialogFragment$ViewHolder
+io/github/project_travel_mate/utilities/ChecklistDragCallback.java
+ io.github.project_travel_mate.utilities.ChecklistDragCallback
+io/github/project_travel_mate/destinations/CityFragment.java
+ io.github.project_travel_mate.destinations.CityFragment
+ io.github.project_travel_mate.destinations.CityFragment$1
+ io.github.project_travel_mate.destinations.CityFragment$2
+ io.github.project_travel_mate.destinations.CityFragment$3
+ io.github.project_travel_mate.destinations.CityFragment$4
+ io.github.project_travel_mate.destinations.CityFragment$5
+io/github/project_travel_mate/utilities/CustomAnalogClock.java
+ io.github.project_travel_mate.utilities.CustomAnalogClock
+ io.github.project_travel_mate.utilities.CustomAnalogClock$1
+io/github/project_travel_mate/roompersistence/ChecklistViewModel.java
+ io.github.project_travel_mate.roompersistence.ChecklistViewModel
+flipviewpager/view/FlipViewPager.java
+ flipviewpager.view.FlipViewPager
+ flipviewpager.view.FlipViewPager$OnChangePageListener
+ flipviewpager.view.FlipViewPager$PageItem
+io/github/project_travel_mate/utilities/CurrencyActivity.java
+ io.github.project_travel_mate.utilities.CurrencyActivity
+ io.github.project_travel_mate.utilities.CurrencyActivity$1
+ io.github.project_travel_mate.utilities.CurrencyActivity$2
+ io.github.project_travel_mate.utilities.CurrencyActivity$Connection
+io/github/project_travel_mate/favourite/FavouriteCitiesFragment.java
+ io.github.project_travel_mate.favourite.FavouriteCitiesFragment
+adapters/TimezoneAdapter.java
+ adapters.TimezoneAdapter
+ adapters.TimezoneAdapter$TimezoneFilter
+ adapters.TimezoneAdapter$ViewHolder
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/PetrolModeFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.PetrolModeFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.PetrolModeFragment$1
+objects/Trip.java
+ objects.Trip
+dao/WidgetCheckListDao.java
+ dao.WidgetCheckListDao
+utils/TouchImageView.java
+ utils.TouchImageView
+ utils.TouchImageView$1
+ utils.TouchImageView$CompatScroller
+ utils.TouchImageView$DoubleTapZoom
+ utils.TouchImageView$Fling
+ utils.TouchImageView$GestureListener
+ utils.TouchImageView$OnTouchImageViewListener
+ utils.TouchImageView$PrivateOnTouchListener
+ utils.TouchImageView$ScaleListener
+ utils.TouchImageView$State
+ utils.TouchImageView$ZoomVariables
+io/github/project_travel_mate/utilities/CurrencyListViewActivity.java
+ io.github.project_travel_mate.utilities.CurrencyListViewActivity
+flipviewpager/adapter/BaseFlipAdapter.java
+ flipviewpager.adapter.BaseFlipAdapter
+ flipviewpager.adapter.BaseFlipAdapter$MergeAdapter
+ flipviewpager.adapter.BaseFlipAdapter$ViewHolder
+io/github/project_travel_mate/utilities/BugReportAdapter.java
+ io.github.project_travel_mate.utilities.BugReportAdapter
+ io.github.project_travel_mate.utilities.BugReportAdapter$ViewHolder
+io/github/project_travel_mate/utilities/TimezoneListViewActivity.java
+ io.github.project_travel_mate.utilities.TimezoneListViewActivity
+io/github/project_travel_mate/destinations/description/WeatherActivity.java
+ io.github.project_travel_mate.destinations.description.WeatherActivity
+ io.github.project_travel_mate.destinations.description.WeatherActivity$1
+ io.github.project_travel_mate.destinations.description.WeatherActivity$2
+utils/WhatsNewStrings.java
+ utils.WhatsNewStrings
+io/github/project_travel_mate/travel/MapViewRealTimeActivity.java
+ io.github.project_travel_mate.travel.MapViewRealTimeActivity
+ io.github.project_travel_mate.travel.MapViewRealTimeActivity$1
+utils/WeatherUtils.java
+ utils.WeatherUtils
+io/github/project_travel_mate/login/LoginView.java
+ io.github.project_travel_mate.login.LoginView
+io/github/project_travel_mate/travel/swipefragmentrealtime/ViewPageFragmentsAdapter.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.ViewPageFragmentsAdapter
+io/github/project_travel_mate/utilities/DialOverlay.java
+ io.github.project_travel_mate.utilities.DialOverlay
+io/github/project_travel_mate/destinations/description/CityMapActivity.java
+ io.github.project_travel_mate.destinations.description.CityMapActivity
+io/github/project_travel_mate/destinations/CityAdapter.java
+ io.github.project_travel_mate.destinations.CityAdapter
+ io.github.project_travel_mate.destinations.CityAdapter$CitiesHolder
+ io.github.project_travel_mate.destinations.CityAdapter$CitiesInfoHolder
+adapters/CardViewOptionsAdapter.java
+ adapters.CardViewOptionsAdapter
+ adapters.CardViewOptionsAdapter$OnItemClickListener
+ adapters.CardViewOptionsAdapter$UtilityOptionsViewHolder
+widget/ClockWidget.java
+ widget.ClockWidget
+objects/CityHistoryListItem.java
+ objects.CityHistoryListItem
+objects/FriendCity.java
+ objects.FriendCity
+io/github/project_travel_mate/mytrips/MyTripsFragment.java
+ io.github.project_travel_mate.mytrips.MyTripsFragment
+ io.github.project_travel_mate.mytrips.MyTripsFragment$1
+io/github/project_travel_mate/VerifyEmailActivity.java
+ io.github.project_travel_mate.VerifyEmailActivity
+ io.github.project_travel_mate.VerifyEmailActivity$1
+io/github/project_travel_mate/notifications/NotificationsAdapter.java
+ io.github.project_travel_mate.notifications.NotificationsAdapter
+ io.github.project_travel_mate.notifications.NotificationsAdapter$1
+ io.github.project_travel_mate.notifications.NotificationsAdapter$ViewHolder
+objects/Notification.java
+ objects.Notification
+io/github/project_travel_mate/mytrips/MyTripFriendNameAdapter.java
+ io.github.project_travel_mate.mytrips.MyTripFriendNameAdapter
+ io.github.project_travel_mate.mytrips.MyTripFriendNameAdapter$1
+ io.github.project_travel_mate.mytrips.MyTripFriendNameAdapter$ViewHolder
+io/github/project_travel_mate/travel/swipefragmentrealtime/MapListItemAdapter.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.MapListItemAdapter
+ io.github.project_travel_mate.travel.swipefragmentrealtime.MapListItemAdapter$ViewHolder
+io/github/project_travel_mate/login/LoginActivity.java
+ io.github.project_travel_mate.login.LoginActivity
+io/github/project_travel_mate/utilities/TimezoneConverterAdapter.java
+ io.github.project_travel_mate.utilities.TimezoneConverterAdapter
+ io.github.project_travel_mate.utilities.TimezoneConverterAdapter$1
+ io.github.project_travel_mate.utilities.TimezoneConverterAdapter$ViewHolder
+io/github/project_travel_mate/destinations/funfacts/FunFactsPresenter.java
+ io.github.project_travel_mate.destinations.funfacts.FunFactsPresenter
+ io.github.project_travel_mate.destinations.funfacts.FunFactsPresenter$1
+ io.github.project_travel_mate.destinations.funfacts.FunFactsPresenter$2
+io/github/project_travel_mate/friend/FriendsProfileActivity.java
+ io.github.project_travel_mate.friend.FriendsProfileActivity
+ io.github.project_travel_mate.friend.FriendsProfileActivity$1
+ io.github.project_travel_mate.friend.FriendsProfileActivity$2
+ io.github.project_travel_mate.friend.FriendsProfileActivity$3
+io/github/project_travel_mate/travel/swipefragmentrealtime/modefragments/HangoutSpotFragment.java
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.HangoutSpotFragment
+ io.github.project_travel_mate.travel.swipefragmentrealtime.modefragments.HangoutSpotFragment$1
+database/AppDataBase.java
+ database.AppDataBase
+ database.AppDataBase$1
+ database.AppDataBase$2
+objects/MapItem.java
+ objects.MapItem
+utils/DailyQuotesManager.java
+ utils.DailyQuotesManager
+io/github/project_travel_mate/utilities/ChecklistAdapter.java
+ io.github.project_travel_mate.utilities.ChecklistAdapter
+ io.github.project_travel_mate.utilities.ChecklistAdapter$ChecklistEventListener
+ io.github.project_travel_mate.utilities.ChecklistAdapter$ViewHolder
+objects/Quote.java
+ objects.Quote
+utils/CurrencyConverterGlobal.java
+ utils.CurrencyConverterGlobal
+io/github/project_travel_mate/destinations/description/WeatherAdapter.java
+ io.github.project_travel_mate.destinations.description.WeatherAdapter
+ io.github.project_travel_mate.destinations.description.WeatherAdapter$WeatherHolder
+io/github/project_travel_mate/utilities/UtilitiesFragment.java
+ io.github.project_travel_mate.utilities.UtilitiesFragment
+io/github/project_travel_mate/utilities/AboutUsFragment.java
+ io.github.project_travel_mate.utilities.AboutUsFragment

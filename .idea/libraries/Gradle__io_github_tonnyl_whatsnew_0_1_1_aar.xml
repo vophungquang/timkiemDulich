@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.tonnyl:whatsnew:0.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/whatsnew-0.1.1.aar/d99c5f35da4c6aa637d218c6f0ec1a20/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/whatsnew-0.1.1.aar/d99c5f35da4c6aa637d218c6f0ec1a20/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/whatsnew-0.1.1.aar/d99c5f35da4c6aa637d218c6f0ec1a20/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc69d9d7776d33312640be2f1e3331b7/whatsnew-0.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc69d9d7776d33312640be2f1e3331b7/whatsnew-0.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc69d9d7776d33312640be2f1e3331b7/whatsnew-0.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/whatsnew/0.1.1/4d9df85909dc93711709a4a1a90b0e0ef27d6e06/whatsnew-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/whatsnew/0.1.1/da6da4b6b4baa1df1638ace23d53baa68a66fb0e/whatsnew-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
